@@ -1,15 +1,20 @@
 # Example Site settings
 
-#google_analytics: UA-NNNNNNNN-N
+google_analytics: UA-NNNNNNNN-N
 
-#header_pages:
-#  - index.md
-#  - about.md
+header_pages:
+  - pages/index.md
+  - pages/posts.md
+  - pages/todo.md
+  - pages/log.md
+  - pages/about.md
 
-#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+footer: 'Currently: Learning how to be a Javascript Full-Stack Developer...'
 
-#style: light # dark (default) or light
-#listen_for_clients_preferred_style: true # true or false (default)
+style: dark
 
 plugins:
   - jekyll-seo-tag
+
+remote_theme: b2a3e8/jekyll-theme-console
+
