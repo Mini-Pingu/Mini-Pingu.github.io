@@ -1,7 +1,7 @@
 ---
 title: /index
 layout: home
-permalink: /index
+permalink: /
 ---
 
 # <center>Mini-Pingu's Log</center>
