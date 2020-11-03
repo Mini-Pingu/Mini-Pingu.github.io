@@ -2,5 +2,5 @@ date: 2020-11-02
 tasks:
     - title: Github.io
       description: Set up Version 0.1 of Github.io (index, todo, log pages)
-      upcoming: post, about, search(Simple-Jekyll-Search) page; google analytics; disqus comment section;
       status: Processing
+      upcoming: post, about, tag, category, search(Simple-Jekyll-Search) page; google analytics; disqus comment section;

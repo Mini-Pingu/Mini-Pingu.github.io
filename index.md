@@ -12,7 +12,5 @@ The purpose of this site is for recording what I learn everyday at a start-up co
 
 I will occasionally update post when something big occurs, but must keep logging daily snippet at todo and log page before sleep. <br/><br/>
 
-<center><b>Warning: only tech shows up, others are encrypted.</b></center>
-
 ---
-# <center>Last Post</center>
+# <center>Recent Posts</center>
