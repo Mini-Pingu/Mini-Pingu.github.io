@@ -11,12 +11,12 @@ tasks:
       link: https://github.com/Mini-Pingu/mini-pingu.github.io
       parent: 2020-11-03 -> Github.io 日志開發
     - title: Backend Developing
-      info: 熟悉 Strapi，PostgreSQL，與 API
+      info: 熟悉 Strapi，PM2, PostgreSQL，與 API
       priority: top
       stage: processing
-      steps: 1. Strapi 2. PostgreSQL 3. 後端與數據庫連接測試 by Postman
-      current: 1 -> 1
-      current_percentage: 100%
+      steps: 1. Strapi 1.5 PM2 2. PostgreSQL 3. 後端與數據庫連接測試 by Postman
+      current: 1 -> 1.5
+      current_percentage: ???%
       repository: toyProject_strapi
       link: https://github.com/Mini-Pingu/toyProject_strapi
       parent: 2020-11-03 -> Backend Developing

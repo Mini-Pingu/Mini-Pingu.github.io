@@ -22,5 +22,6 @@
 #### Upcoming:
 
 1. 項目重復每天出現問題如何解決?
+2. tasks.md 順序問題
 
 ## Reference
