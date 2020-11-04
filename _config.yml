@@ -3,7 +3,7 @@
 google_analytics: UA-NNNNNNNN-N
 
 header_pages:
-  - index.md
+  - pages/index.md
   - pages/posts.md
   - pages/tasks.md
   - pages/about.md
