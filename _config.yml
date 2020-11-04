@@ -5,8 +5,7 @@ google_analytics: UA-NNNNNNNN-N
 header_pages:
   - index.md
   - pages/posts.md
-  - pages/todo.md
-  - pages/log.md
+  - pages/tasks.md
   - pages/about.md
 
 footer: 'Currently: Being a Javascript Full-Stack Developer...'

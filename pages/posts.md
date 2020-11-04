@@ -4,15 +4,15 @@ layout: page
 permalink: /posts
 ---
 
-# Posts
+<center><b>這裏會是記錄 something big 和周報。</b></center>
 
-<ul class="entries">
+<hr/>
+
+<ul>
   {% for post in site.posts %}
   <li>
-    [{{ post.date | date: "%d %B %Y" }}]
-    <a href="{{ post.url }}">
-    	{{ post.title }}
-    </a>
+    [ {{ post.date | date: "%Y-%m-%d" }} ]
+    <a href="{{ post.url | relative_url }}"> {{ post.title | escape }} </a>
   </li>
   {% endfor %}
 </ul>
