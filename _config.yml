@@ -1,19 +1,63 @@
-# Example Site settings
+# Site settings
+title_left    : "Mini-"
+title_right   : "Space" # default: ""
+description   : "Blog for recording my work and knowledge."
+keywords      : "Jekyll, Blog, Mini-Pingu"
+url           : https://mini-pingu.github.io/ # site url
+baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+cover         : "https://github.com/account" # image uri like logo/cover image for site seo
 
-google_analytics: UA-NNNNNNNN-N
+google_analytics  : UA-XXXXX-XX
+twitter_username  : "_mini_pingu_"
+comments_enabled  : false # if enabled (set to true), please provide your disqus_username
+disqus_shortname  : ""
+postshare_enabled : false
 
-header_pages:
-  - pages/index.md
-  - pages/posts.md
-  - pages/tasks.md
-  - pages/about.md
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
 
-footer: 'Currently: Being a Javascript Full-Stack Developer...'
+source      : ./
+destination : ./_site
 
-style: dark
+# Sass configuration
+sass:
+  sass_dir  : assets/scss
+  style     : compressed # expanded
+
+# Author settings
+author:
+  name     : "Mini-Pingu"
 
 plugins:
-  - jekyll-seo-tag
+  - jekyll-sitemap
+  - bourbon
+  - jekyll-paginate
 
-remote_theme: b2a3e8/jekyll-theme-console
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
 
+exclude:
+  - "gulp"
+  - "node_modules"
+  - "bower"
+  - "bower_components"
+  - "config.rb"
+  - "src"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - ".rvmrc"
+  - ".rbenv-version"
+  - "package.json"
+  - "gulpfile.js"
+  - "README.md"
+  - "Rakefile"
+  - "changelog.md"
+  - "script"
+  - "vendor"
+  - "thinkspace.gemspec"

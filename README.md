@@ -1,27 +1,13 @@
-# mini-pingu.github.io
-> 透明化工作進度，記錄學習與工作過程
+# Thinkspace
 
-## 目標
+> Thinkspace is just another minimalist Jekyll theme which designed for technical writing blog.
 
-記錄在公司的技術學習與工作過程，方便領導檢查進度，與自我總結。:)
+[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![GENERATOR](https://img.shields.io/badge/made_with-jekyll-blue.svg) ![VERSION](https://img.shields.io/badge/current_version-2.5-green.svg) ![TRAVIS-CI](https://travis-ci.org/heiswayi/thinkspace.svg?branch=master)
 
-- [x] _data & tasks.md 格式記錄與顯示
-- [ ] 填寫各頁面內容 (index.md, about.md)
-- [ ] 評論功能 by disqus
-- [ ] 搜索功能 by algolia + Github CI/CD
-- [ ] Google Analytics
+- **Demo:** https://heiswayi.github.io/thinkspace/
 
-#### Upcoming:
+![SCREENSHOT](https://i.imgur.com/1YS078k.png)
 
-1. 是否需要更換模板?
+## License
 
-## 流程
-
-### _data & tasks.md 格式記錄與顯示
-
-#### Upcoming:
-
-1. 項目重復每天出現問題如何解決?
-2. tasks.md 順序問題
-
-## Reference
+[MIT](LICENSE.md)
